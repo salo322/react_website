@@ -13,10 +13,12 @@
     "react-responsive-carousel": "^3.2.11",
     "react-router-dom": "^5.2.0",
     "react-scripts": "4.0.1",
+    "react-scroll": "^1.8.1",
     "react-scroll-to": "^3.0.0-beta.6",
     "react-slick": "^0.27.13",
     "react-spring": "^8.0.27",
     "slick-carousel": "^1.8.1",
+    "throttle": "^1.0.3",
     "use-window-size": "0.0.1",
     "web-vitals": "^0.2.4"
   },

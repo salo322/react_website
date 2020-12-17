@@ -2,14 +2,14 @@ import React, {useState, useEffect} from 'react';
 
 
 const images = [
-{id: '1', imageName:'image1.jpg', tag:'design', title:'first'},
-{id: '2', imageName:'image2.jpg', tag:'photography', title:'second'},
-{id: '3', imageName:'image3.jpg', tag:'design', title:'third'},
-{id: '4', imageName:'image4.jpg', tag:'web', title:'fourth'},
-{id: '5', imageName:'image5.jpg', tag:'web', title:'fifth'},
-{id: '6', imageName:'image6.jpg', tag:'photography', title:'sixth'},
-{id: '7', imageName:'image7.jpg', tag:'web', title:'seventh'},
-{id: '8', imageName:'image8.jpg', tag:'design', title:'eighth'}
+{id: '1', imageName:'image1.jpg', tag:'design', title:'really beautiful design simple website'},
+{id: '2', imageName:'image2.jpg', tag:'photography', title:'own photography for website'},
+{id: '3', imageName:'image3.jpg', tag:'design', title:'pretty design responsive website'},
+{id: '4', imageName:'image4.jpg', tag:'web', title:'responsive and quality website'},
+{id: '5', imageName:'image5.jpg', tag:'web', title:'any type of website'},
+{id: '6', imageName:'image6.jpg', tag:'photography', title:'beautiful photography'},
+{id: '7', imageName:'image7.jpg', tag:'web', title:'web development'},
+{id: '8', imageName:'image8.jpg', tag:'design', title:'design development'}
 ]
 
 
@@ -25,11 +25,11 @@ const Works = () => {
 
 
     return (
-        <div>
+        <div id="works">
            <div className="works-container">
                <div className="works-title">
-                   <h1>OUR WORKS</h1>
-                   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris eget ante nibh. Nunc purus diam, luctus placerat tempor at, pellentesque non magna.</p>
+                   <h1>MY WORKS</h1>
+                   <p>Here' my works. Beautiful, Quality and Responsive websites.</p>
                </div>
 
             <div className="gallery-container">
