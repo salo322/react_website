@@ -9,34 +9,34 @@ function RightNav() {
                   <div id="home">
                   <div className="hamburger-flex">
                   <h1>REACTWEB</h1>
-                  <button onClick={toggleTrueFalse} className="menu-hamburger">{isToggled ? "close" : "menu"}</button>
+                  <button onClick={toggleTrueFalse} className="menu-hamburger">{isToggled ? <img src="https://img.icons8.com/ios-glyphs/35/ffffff/xbox-x.png"/> : <img src="https://img.icons8.com/android/35/ffffff/menu.png"/>}</button>
                   </div>
                   
-                  <div  className={isToggled ? "hamburger-nav-styles" : "hide-hamburger"}>
-                   <ul onClick={toggleTrueFalse}>
+                  <div onClick={toggleTrueFalse}  className={isToggled ? "hamburger-nav-styles" : "hide-hamburger"}>
+                   <ul>
            <li>
         <Link activeClass="active" to="home" spy={true} smooth={true}>
-          Home
+        <a onClick={toggleTrueFalse}>Home</a>
         </Link>
       </li>
       <li>
         <Link to="about" spy={true} smooth={true}>
-          About
+          <a onClick={toggleTrueFalse}>About</a>
         </Link>
       </li>
       <li>
         <Link to="services" spy={true} smooth={true}>
-          Services
+        <a onClick={toggleTrueFalse}>Services</a>
         </Link>
       </li>
       <li>
         <Link to="works" spy={true} smooth={true}>
-         Works
+        <a onClick={toggleTrueFalse}>Works</a>
         </Link>
       </li>
       <li>
         <Link to="contact" spy={true} smooth={true}>
-          Contact
+        <a onClick={toggleTrueFalse}>contact</a>
         </Link>
       </li>
                  </ul>

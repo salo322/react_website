@@ -45,8 +45,8 @@ const Works = () => {
                      
                          <div key={image.id} className="image-card">
                             <img className="image" width='30%' src={process.env.PUBLIC_URL + `/${image.imageName}`} alt="image1" />
-                            <div class="middle">
-                             <div class="text">{image.title}</div>
+                            <div className="middle">
+                             <div className="text">{image.title}</div>
                              </div>
                          </div>)
                          
@@ -59,7 +59,7 @@ const Works = () => {
 }
 
 const TagButton = ({name, handleSetTag, tagActive}) =>{
-     return <button className={`tag ${tagActive ? 'active': null}`} onClick={()=>handleSetTag(name)}>{name.toUpperCase()}</button>
+     return <button className={`tag ${tagActive ? 'active-button': null}`} onClick={()=>handleSetTag(name)}>{name.toUpperCase()}</button>
 }
 
 export default Works
