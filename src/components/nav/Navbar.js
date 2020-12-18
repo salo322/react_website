@@ -29,43 +29,38 @@ import { Link } from "react-scroll";
             <div className="header-nav-styles">
                 <div className={pageUp ? "navbar-fixed" : "navbar-fixed-up"}>
                 <h1 class="neon">ReactWeb</h1>
-           <ul>
-           <li>
-        <Link activeClass="active" to="home" spy={true} smooth={true}>
-          Home
-        </Link>
-      </li>
-      <li>
-        <Link to="about" spy={true} smooth={true}>
-          About
-        </Link>
-      </li>
-      <li>
-        <Link to="services" spy={true} smooth={true}>
-          Services
-        </Link>
-      </li>
-      <li>
-        <Link to="works" spy={true} smooth={true}>
-         Works
-        </Link>
-      </li>
-      <li>
-        <Link to="contact" spy={true} smooth={true}>
-          Contact
-        </Link>
-      </li>
-           </ul>
+            <ul>
+              <li>
+              <Link activeClass="active" to="home" spy={true} smooth={true}>
+               Home
+              </Link>
+              </li>
+              <li>
+              <Link to="about" spy={true} smooth={true}>
+               About
+              </Link>
+              </li>
+              <li>
+              <Link to="services" spy={true} smooth={true}>
+              Services
+              </Link>
+              </li>
+              <li>
+              <Link to="works" spy={true} smooth={true}>
+              Works
+              </Link>
+             </li>
+             <li>
+             <Link to="contact" spy={true} smooth={true}>
+              Contact
+             </Link>
+            </li>
+            </ul>
                 </div>
-              
             </div>
-
-            <RightNav />
+              <RightNav />
         </nav>
-       
          </div>
-
-     
       </div>
          
         
