@@ -1,8 +1,8 @@
 import React from 'react';
-import team1 from './imgs/team1.jpg';
-import team2 from './imgs/team2.jpg';
-import team3 from './imgs/team3.jpg';
-import team4 from './imgs/team4.jpg';
+import team1 from '../imgs/team1.jpg';
+import team2 from '../imgs/team2.jpg';
+import team3 from '../imgs/team3.jpg';
+import team4 from '../imgs/team4.jpg';
 
 function About() {
     return (

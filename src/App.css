@@ -93,7 +93,7 @@
 }
 
 .navbar-container nav{
-  background-image: url(./backgr.jpg);
+  background-image: url(../src/imgs/backgr.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   height: 100vh;
