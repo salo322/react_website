@@ -11,31 +11,31 @@ function RightNav() {
                   <h1>REACTWEB</h1>
                   <button onClick={toggleTrueFalse} className="menu-hamburger">{isToggled ? <img src="https://img.icons8.com/ios-glyphs/35/ffffff/xbox-x.png"/> : <img src="https://img.icons8.com/android/35/ffffff/menu.png"/>}</button>
                   </div>
-                  
+                   
                   <div onClick={toggleTrueFalse}  className={isToggled ? "hamburger-nav-styles" : "hide-hamburger"}>
                    <ul>
            <li>
-        <Link activeClass="active" to="home" spy={true} smooth={true}>
+        <Link onClick={toggleTrueFalse} style={{padding: '5% 20%'}} activeClass="active" to="home" spy={true} smooth={true}>
         <a onClick={toggleTrueFalse}>Home</a>
         </Link>
       </li>
       <li>
-        <Link to="about" spy={true} smooth={true}>
+        <Link onClick={toggleTrueFalse} style={{padding: '5% 20%'}} to="about" spy={true} smooth={true}>
           <a onClick={toggleTrueFalse}>About</a>
         </Link>
       </li>
       <li>
-        <Link to="services" spy={true} smooth={true}>
+        <Link onClick={toggleTrueFalse} style={{padding: '5% 20%'}} to="services" spy={true} smooth={true}>
         <a onClick={toggleTrueFalse}>Services</a>
         </Link>
       </li>
       <li>
-        <Link to="works" spy={true} smooth={true}>
+        <Link onClick={toggleTrueFalse} style={{padding: '5% 20%'}} to="works" spy={true} smooth={true}>
         <a onClick={toggleTrueFalse}>Works</a>
         </Link>
       </li>
       <li>
-        <Link to="contact" spy={true} smooth={true}>
+        <Link onClick={toggleTrueFalse} style={{padding: '5% 20%'}} to="contact" spy={true} smooth={true}>
         <a onClick={toggleTrueFalse}>contact</a>
         </Link>
       </li>
